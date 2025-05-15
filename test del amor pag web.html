@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Lenguajes del Amor | Más Allá del Amor</title>
+    <style>
+        :root {
+            --color-primary: #e63946;
+            --color-secondary: #f1faee;
+            --color-accent: #a8dadc;
+            --color-dark: #1d3557;
+            --color-light: #f8f9fa;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--color-secondary);
+            color: var(--color-dark);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, var(--color-primary), var(--color-dark));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .test-container {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: var(--color-primary);
+            text-align: center;
+        }
+        .download-box {
+            background: var(--color-accent);
+            border-left: 5px solid var(--color-dark);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 8px;
+        }
+        .btn {
+            background-color: var(--color-primary);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(230, 57, 70, 0.3);
+        }
+        .test-instructions {
+            background-color: var(--color-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: var(--color-dark);
+            color: white;
+            margin-top: 3rem;
+        }
+        .heart {
+            color: var(--color-primary);
+            font-size: 1.2rem;
+        }
+        @media (max-width: 768px) {
+            .download-box {
+                flex-direction: column;
+                text-align: center;
+            }
+            .btn {
+                margin-top: 1rem;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Más Allá del Amor</div>
+        <p>Transformando relaciones desde el entendimiento</p>
+    </header>
+
+    <div class="container">
+        <div class="test-container">
+            <h1>Test Extendido de Lenguajes del Amor</h1>
+            
+            <div class="test-instructions">
+                <h2>Instrucciones:</h2>
+                <ol>
+                    <li>Descarga la plantilla completa en PDF o Word</li>
+                    <li>Imprime o completa digitalmente</li>
+                    <li>Usa la escala de colores o numérica (1-4)</li>
+                    <li>Calcula tus resultados con la tabla final</li>
+                    <li>¡Comparte con tu pareja y comienza a transformar su relación!</li>
+                </ol>
+            </div>
+
+            <div class="download-box">
+                <div>
+                    <h3>Descarga tu test completo</h3>
+                    <p>Incluye: Test extendido + Tabla de resultados + Ejercicio para parejas</p>
+                </div>
+                <a href="#" class="btn">Descargar Ahora</a>
+            </div>
+
+            <h2>Vista previa del test:</h2>
+            <img src="https://via.placeholder.com/800x500/f1faee/1d3557?text=Vista+previa+del+Test" alt="Vista previa del test" style="width:100%; border-radius:8px; margin:1rem 0;">
+
+            <h3>¿Qué incluye?</h3>
+            <ul>
+                <li>Sección detallada para cada lenguaje del amor</li>
+                <li>Sistema de puntuación claro</li>
+                <li>Ejercicio "Mapa de Compatibilidad" para parejas</li>
+                <li>Tips para interpretar resultados</li>
+                <li>Versiones para imprimir y digital</li>
+            </ul>
+
+            <div style="text-align: center; margin: 2rem 0;">
+                <a href="#" class="btn">Obtener Mi Test</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Más Allá del Amor. Todos los derechos reservados.</p>
+        <p>Hecho con <span class="heart">♥</span> para relaciones más conscientes</p>
+    </footer>
+
+    <script>
+        // Simulación de descarga
+        document.querySelector('.btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            alert('¡Gracias por tu interés! El test se descargará automáticamente. (En una implementación real, aquí se activaría la descarga del PDF)');
+            // En un caso real: window.location.href = 'test-amor.pdf';
+        });
+    </script>
+</body>
+</html>
